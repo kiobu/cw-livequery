@@ -17,7 +17,7 @@ function LQ:PlayerCanSayOOC(player, text)
     print(requestbody)
 
     local opts = {
-        parameters = "",
+        parameters = nil,
         method = "post",
         headers = {},
         url = LQ.Config.server,

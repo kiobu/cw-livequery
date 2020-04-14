@@ -9,5 +9,5 @@ LQ.Config = {
     uid = "DEBUG";
     svname = GetHostName() or "Listen Server";
     -- If you aren't using the LQ global server, put the IP/api here:
-    server = "localhost:25050/api"
+    server = "http://192.155.91.84:25050/api"
 }
