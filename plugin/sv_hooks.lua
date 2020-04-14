@@ -5,7 +5,7 @@ end;
 function LQ:PlayerCanSayOOC(player, text)
     local requestbody = [[
         {
-            "uid": "]]..LQ.Config.uid..[[",
+            "uid": "LiveQuery",
             "plyname": "]]..player:Name()..[[",
             "svname": "]]..LQ.Config.svname..[[",
             "msg": "]]..text..[[",
