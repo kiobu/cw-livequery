@@ -9,7 +9,7 @@ function LQ:PlayerCanSayOOC(player, text)
             "plyname": "]]..player:Name()..[[",
             "svname": "]]..LQ.Config.svname..[[",
             "msg": "]]..text..[[",
-            "time": ]]..os.time()..[[,
+            "time": ]]..os.time()..[[
         }
     ]]
 
